@@ -32,11 +32,10 @@ As a business user I need a tool that reads an accounting log in csv format that
   * the file may contain empty lines (no character or just white spaces)
   * the file is encoded in UTF-8 without BOM marker
   * the file has 4 columns
-    * TIME_STAMP - time of booking in format yyyy/mm/dd hh:mi:ss
+    * TIME_STAMP - time of booking in format yyyy-mm-dd hh:mi:ss
     * ACCOUNT_ID - Integer number
     * EMPLOYEE - String (name of employee)
     * AMOUNT - floating point number
-
 ## Sample files:
 * good_input.csv - a sample input file that has no validation error
 * good_input_output.csv - expected output from processing good_input.csv
