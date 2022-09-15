@@ -1,1 +1,6 @@
 .vscode
+.idea/
+output.csv
+pom.xml
+target/
+src/
