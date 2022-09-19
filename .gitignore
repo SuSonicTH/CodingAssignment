@@ -4,3 +4,4 @@ output.csv
 pom.xml
 target/
 src/
+*.pyc
