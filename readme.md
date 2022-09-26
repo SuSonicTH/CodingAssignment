@@ -45,4 +45,3 @@ As a business user I need a tool that reads an accounting log in csv format that
 ## Sample files for 'Nice to have':
 * input_with_error.csv - a sample input file that has all kinds of validation problems
 * input_with_error_output.csv - expected output from processing input_with_error.csv
-* expected_error - expected error output containing all the records that were invalid
