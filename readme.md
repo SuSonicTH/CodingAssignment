@@ -10,6 +10,7 @@ As a business user I need a tool that reads an accounting log in csv format that
   * SUM_OF_AMOUNT - the sum of all input amounts for a ACCOUNT_ID per MONTH
 * empty lines in the input file are ignored
 * the amount from the input is summed up, grouped by ACCOUNT_ID and MONTH
+* the output has a heder line (MONTH,ACCOUNT_ID,AMOUNT)
 
 ## Format for the input csv
   * separator is a comma ','
@@ -23,7 +24,7 @@ As a business user I need a tool that reads an accounting log in csv format that
     * ACCOUNT_ID - Integer number
     * EMPLOYEE - String (name of employee)
     * AMOUNT - floating point number
-  * the Output should have a heder line (MONTH,ACCOUNT_ID,AMOUNT)
+  
 ## Sample files:
 * good_input.csv - a sample input file that has no validation error
 * good_output.csv - expected output from processing good_input.csv
