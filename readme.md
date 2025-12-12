@@ -5,12 +5,12 @@ As a business user I need a tool that reads an accounting log in csv format that
 ## Acceptance Criteria
 * the tool accepts 2 file names (input and output)
 * output is a csv file with following fields
-  * MONTH - the month of the booking in format yyyy-mm
+  * MONTH - the month of the booking in format yyyy/mm
   * ACCOUNT_ID - an ACCOUNT_ID from the input file
   * SUM_OF_AMOUNT - the sum of all input amounts for a ACCOUNT_ID per MONTH with 2 decimal places
 * empty lines in the input file are ignored
 * the amount from the input is summed up, grouped by ACCOUNT_ID and MONTH
-* the output has a heder line (MONTH,ACCOUNT_ID,AMOUNT)
+* the output has a header line (MONTH,ACCOUNT_ID,AMOUNT)
 
 ## Format for the input csv
   * separator is a comma ','
@@ -46,4 +46,5 @@ As a business user I need a tool that reads an accounting log in csv format that
 
 ## Sample files for 'Nice to have':
 * input_with_error.csv - a sample input file that has all kinds of validation problems
-* input_with_error_output.csv - expected output from processing input_with_error.csv
+* good_output_without_error.csv - expected output file
+* input_with_error_output.csv - expected error output from processing input_with_error.csv

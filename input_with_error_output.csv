@@ -1,0 +1,25 @@
+2022-02-08 12:09:53,10302,,238.44|Empty Employee Name
+2022-06-05 11:24:17,10101 ,Nicola Churchill,3.33|Invalid AccountID format
+2022-04-11 14:21:15, 10302,Eric Dickens,131.96|Invalid AccountID format
+2022-07-25 00:06:38, 10506 ,Simon Oliver,282.84|Invalid AccountID format
+2022-05-26 16:43:48,      10506,Phil Newman,161.52|Invalid AccountID format
+2022-05-06 07:29:30,10780      ,Leonard Rampling,13.15|Invalid AccountID format
+2022-01-04 10:02,10780,Ruth Taylor,411.82|Invalid timestamp format
+2022-06-07 18,10101,Kimberly Smith,176.88|Invalid timestamp format
+2022-01-3 14:31:55,10302,Heather Hart,274.6|Invalid timestamp format
+2022-6-1 13:10:01,10506,Phil Newman,331.83|Invalid timestamp format
+2022-5-25 04:26:01,10780,Leonard Rampling,137.03|Invalid timestamp format
+2022-04-11 16:04:41,10101,Felicity Johnston,70.4€|Invalid Transaction Amount format
+2022-06-15 03:34:20,10302,Natalie May,357E|Invalid Transaction Amount format
+2022-03-22 07:18:05,10506,Leonard Lee,197,36|Invalid number of fields
+2022-04-21 09:21:04,10780,Nathan McLean,477.43,Not everything|Invalid number of fields
+2022-01-28 17-50-:12,10302,Kimberly Smith,479.96|Invalid timestamp format
+2022.01.08 18:16:33,10302,Natalie May,261.78|Invalid timestamp format
+17.04.2022 19:00:01,10302,Peter Rutherford,76.2|Invalid timestamp format
+2022/02/25 12:34:57,10506,Felicity Wilson,88.12|Invalid timestamp format
+2022-02-12 21:34:19,,Justin Stewart,255.98|Invalid AccountID format
+2022-05-28 03:58:49,10506,Extra field, Natalie May,16.48|Invalid number of fields
+,10101,Nathan McLean,152.25|Invalid timestamp format
+2022-01-13 09:50:40,,Stephen Dowd,277.12|Invalid AccountID format
+2022-07-21 11:45:21,10506,,236.5|Empty Employee Name
+2022-05-03 03:09:37,10780,Felicity Wilson,|Invalid number of fields
