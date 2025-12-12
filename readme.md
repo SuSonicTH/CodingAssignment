@@ -5,7 +5,7 @@ As a business user I need a tool that reads an accounting log in csv format that
 ## Acceptance Criteria
 * the tool accepts 2 file names (input and output)
 * output is a csv file with following fields
-  * MONTH - the month of the booking in format yyyy/mm
+  * MONTH - the month of the booking in format yyyy-mm
   * ACCOUNT_ID - an ACCOUNT_ID from the input file
   * SUM_OF_AMOUNT - the sum of all input amounts for a ACCOUNT_ID per MONTH
 * empty lines in the input file are ignored
@@ -23,6 +23,7 @@ As a business user I need a tool that reads an accounting log in csv format that
     * ACCOUNT_ID - Integer number
     * EMPLOYEE - String (name of employee)
     * AMOUNT - floating point number
+  * the Output should have a heder line (MONTH,ACCOUNT_ID,AMOUNT)
 ## Sample files:
 * good_input.csv - a sample input file that has no validation error
 * good_output.csv - expected output from processing good_input.csv
