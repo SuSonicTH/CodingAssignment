@@ -7,7 +7,7 @@ As a business user I need a tool that reads an accounting log in csv format that
 * output is a csv file with following fields
   * MONTH - the month of the booking in format yyyy-mm
   * ACCOUNT_ID - an ACCOUNT_ID from the input file
-  * SUM_OF_AMOUNT - the sum of all input amounts for a ACCOUNT_ID per MONTH
+  * SUM_OF_AMOUNT - the sum of all input amounts for a ACCOUNT_ID per MONTH with 2 decimal places
 * empty lines in the input file are ignored
 * the amount from the input is summed up, grouped by ACCOUNT_ID and MONTH
 * the output has a heder line (MONTH,ACCOUNT_ID,AMOUNT)
