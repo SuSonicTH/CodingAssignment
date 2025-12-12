@@ -30,7 +30,7 @@ As a business user I need a tool that reads an accounting log in csv format that
 * good_output.csv - expected output from processing good_input.csv
 
 ## Nice to have
-* the tool writes a error file with rejected records
+* the tool writes a error file with rejected records with a pipe '|' and the error reason
 * the header and each line is checked for the expected number of columns
 * every field is trimmed from whitespace
 * input record validation is done
